@@ -66,9 +66,20 @@ response = general_purpose_agent.invoke(
         "messages": [
             {"role": "user", "content": "Tell me about latest AI news"}
         ]
+    },
+    # metadata and config are optional parameters that you can pass 
+    # when invoking the agent.
+    # these will be logged in langsmith
+    config={
+        "run_name": "structured_output_run",
+        "tags": ["structured_output", "v1.2"],
+        "metadata": {
+            "user_id": "user_001",
+            "session_id": "session_123",
+            "name": "John Doe"
+        }
     }
 )
-
 
 
 news: AINewsResponse = response["structured_response"]

@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 my_agent = create_agent(
-  model="google_genai:gemini-3.1-pro-preview", #brain
+  model="openai:gpt-4o-mini", #brain
   system_prompt="You are a helpful assistant.", # roles and goals
 )
 
