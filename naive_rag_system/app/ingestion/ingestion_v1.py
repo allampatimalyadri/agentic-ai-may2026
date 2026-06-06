@@ -47,10 +47,6 @@ def ingest_pdf(file_path):
     vector_store = get_vector_store(collection_name="hr_support_desk", pre_delete_collection=True)
 
     vector_store.add_documents(chunks)
-    
-    # FIXME: I am running a  for loop to add documents with ids. but it should ideally work with batch add_documents. 
-    # for i, chunk in enumerate(chunks):
-    #     vector_store.add_documents([chunk], ids=[f"{chunk.metadata['source']}_{chunk.metadata['page']}_{i}"])
 
 
     print("======Ingestion Completed Successfully!=======")

@@ -142,40 +142,40 @@ if __name__ == "__main__":
 
 
 
+# some sample multiline questions
+# """
+#   1. Vector Search Questions
+#     How do I apply for leave in the company?
+#     What should I do if my paycheck has an issue?
+#     How can employees enroll in health insurance?
+#     What is the process for correcting attendance discrepancies?
+#     Where can I access my performance review history?
+#     How does the onboarding process work for new employees?
+#     What should an employee do before resigning?
+#     How are performance reviews conducted in the organization?
+#     What training programs are available for career growth?
+#     How can I update my personal information in HR records?
 
-"""
-  1. Vector Search Questions
-    How do I apply for leave in the company?
-    What should I do if my paycheck has an issue?
-    How can employees enroll in health insurance?
-    What is the process for correcting attendance discrepancies?
-    Where can I access my performance review history?
-    How does the onboarding process work for new employees?
-    What should an employee do before resigning?
-    How are performance reviews conducted in the organization?
-    What training programs are available for career growth?
-    How can I update my personal information in HR records?
-
-  2. Keyword Search Questions
-     Where can I find Form-16? 
-     What is ESS?
-     Where to find Form W-2?
-     CTC
-     ESI 
+#   2. Keyword Search Questions
+#      Where can I find Form-16? 
+#      What is ESS?
+#      Where to find Form W-2?
+#      CTC
+#      ESI 
   
-  3. Hybrid Search Questions
-      leave policy
-      payroll error
-      attendance correction
-      salary breakdown
-      onboarding process
-      health insurance
-      resignation process
-      tax documents
-      reimbursement claim
-      performance review
-      career goals
-      wellness programs
-      form 16
+#   3. Hybrid Search Questions
+#       leave policy
+#       payroll error
+#       attendance correction
+#       salary breakdown
+#       onboarding process
+#       health insurance
+#       resignation process
+#       tax documents
+#       reimbursement claim
+#       performance review
+#       career goals
+#       wellness programs
+#       form 16
 
-"""
+# """
