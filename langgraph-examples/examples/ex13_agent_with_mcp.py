@@ -58,7 +58,14 @@ mcp_client = MultiServerMCPClient(
             "url": "http://127.0.0.1:8000/mcp",
             "transport": "streamable_http",
         }
-    }
+    },
+    # # for stdio transport, you would specify a command instead of a URL:
+    # {
+    #     "my-stdio-server": {
+    #         "command": "python my_server.py",
+    #         "transport": "stdio",
+    #     }
+    # }
 )
 
 
